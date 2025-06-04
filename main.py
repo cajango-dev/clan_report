@@ -1,7 +1,7 @@
 from scraper import scrape_clan
 from discord_bot import send_clan_report
 
-CLAN_URL = "https://www.dfprofiler.com/clan/view/1405"
+CLAN_URL = "https://www.dfprofiler.com/clan/view/#######"
 
 def main():
     print("Starting scraping...")
