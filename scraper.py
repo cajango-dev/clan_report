@@ -19,11 +19,11 @@ def scrape_clan(url):
     time.sleep(5)
 
     rank_order = {
-        "K I N G C R O W": 1,
-        "Governor Crow": 2,
-        "Legend Crow": 3,
-        "Night Crow": 4,
-        "Military Crow": 5,
+        "": 1,
+        "": 2,
+        "": 3,
+        "": 4,
+        "": 5,
         "Not Compete": 6
     }
 
@@ -61,7 +61,7 @@ def scrape_clan(url):
 
             players.append(player_data)
 
-    # Agora, para os Not Compete, acessar perfil individual e atualizar dados
+    # Now, for the Not Compete, acessas individual profile and update data
     for player in not_compete_players:
         try:
             driver.get(player["profile_link"])
