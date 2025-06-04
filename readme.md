@@ -45,6 +45,7 @@ Run the bot via:
 python main.py
 ```
 This will:
+
 Scrape all player stats from the specified clan page.
 
 Compose paginated embeds.
