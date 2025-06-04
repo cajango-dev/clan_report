@@ -4,11 +4,11 @@ from discord_bot import send_clan_report
 CLAN_URL = "https://www.dfprofiler.com/clan/view/1405"
 
 def main():
-    print("Iniciando scraping...")
+    print("Starting scraping...")
     players = scrape_clan(CLAN_URL)
-    print(f"Dados extraídos: {len(players)} jogadores encontrados.")
+    print(f"Extracted data: {len(players)} players data.")
 
-    print("Enviando dados para Discord...")
+    print("Sending to Discord...")
     send_clan_report(players)
 
 if __name__ == "__main__":
