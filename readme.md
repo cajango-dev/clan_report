@@ -53,7 +53,7 @@ Compose paginated embeds.
 Send the results to the configured Discord webhook.
 
 File Structure: 
-.
+
 ├── main.py               # Entry point script
 
 ├── scraper.py            # Contains logic for scraping DFProfiler
