@@ -55,9 +55,13 @@ Send the results to the configured Discord webhook.
 File Structure: 
 .
 ├── main.py               # Entry point script
+
 ├── scraper.py            # Contains logic for scraping DFProfiler
+
 ├── webhook_sender.py     # (Optional) Handles sending embeds to Discord
+
 ├── requirements.txt      # Python dependencies
+
 └── README.md             # You're here!
 
 🛡️ Disclaimer
