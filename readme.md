@@ -58,7 +58,7 @@ File Structure:
 
 ├── scraper.py            # Contains logic for scraping DFProfiler
 
-├── webhook_sender.py     # (Optional) Handles sending embeds to Discord
+├── discord_bot.py     # (Optional) Handles sending embeds to Discord
 
 ├── requirements.txt      # Python dependencies
 
